@@ -206,7 +206,6 @@ img{
     line-height: .8;
 }
 .home__title span{
-    /* text-shadow: 0 20px 25px rgba(209, 195, 195, 0.5); */
     font-style: italic;
 }
 .home__scroll{
@@ -233,14 +232,7 @@ img{
     text-align: center;
 }
 .about__img{
-    /* display: flex;
-    justify-content: center;
-    padding-top: 1rem;
-    width: 120px;
-    height: 120px;
-    background-color: var(--first-color); */
     border-radius: 50%;
-    /* overflow: hidden; */
 }
 .about__img img{
     width: 100px;
@@ -286,7 +278,6 @@ img{
 }
 .skills__name:hover{
     background-color: var(--first-color);
-    /* color: var(--white-color); */
     color: white;
 }
 .skills__img img{
@@ -364,7 +355,6 @@ img{
 .contact__button{
     display: block;
     background-color: var(--first-color);
-    /* color: var(--white-color); */
     color: white;
     padding: .75rem 2.5rem;
     margin-left: auto;
@@ -377,13 +367,7 @@ img{
 }
 
 .contact__button:hover{
-    /* background-color: var(--first-color); */
-    /* color: var(--white-color); */
     color: white;
-}
-
-form {
-    
 }
 
 /* ===== FOOTER=====*/
@@ -520,7 +504,7 @@ form {
     }
 }
 
-/* For tall screens on mobiles y desktop*/
+/* For tall screens on mobiles and desktop*/
 @media screen and (min-height: 721px) {
     .home__container {
         height: 80 0px;
@@ -549,9 +533,5 @@ form {
   
   .record a{
     color: rgba(241, 151, 151, 0.582);
-  }
-  /* selected link */
-  a:active {
-    color: blue;
   }
 
