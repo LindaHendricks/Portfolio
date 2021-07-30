@@ -308,7 +308,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255,255,255,.3);
+    background-color: rgb(201, 130, 130);
     border-radius: .5rem;
     cursor: pointer;
     backdrop-filter: blur(10px);
@@ -522,8 +522,23 @@ img{
   }
 
   .background:link {
+    text-decoration: none;
+    color: rgb(201, 130, 130)
+  }
+
+  .background:visited {
     text-decoration: underline;
-    color: rgba(241, 151, 151, 0.582)
+    color: rgb(201, 130, 130)
+  }
+
+  .background:hover {
+    text-decoration: underline;
+    color: rgb(201, 130, 130)
+  }
+
+  .background:active {
+    text-decoration: underline;
+    color: rgb(201, 130, 130)
   }
   
   /* mouse over link */
