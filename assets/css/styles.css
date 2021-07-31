@@ -37,7 +37,6 @@
 }
 
 /*Margins*/
-
 :root {
     --mb-1: .5rem;
     --mb-2: 1rem;
@@ -52,7 +51,6 @@
 }
 
 /*base*/
-
 *,::before, ::after {
     box-sizing: border-box;
 }
@@ -85,6 +83,7 @@ img{
     max-width: 100%;
     height: auto;
     display: block;
+    position:relative;
 }
 
 /*===== CLASS CSS ===== */
@@ -308,7 +307,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(201, 130, 130);
+    background-color: rgba(201, 130, 130, 0.123);
     border-radius: .5rem;
     cursor: pointer;
     backdrop-filter: blur(10px);
